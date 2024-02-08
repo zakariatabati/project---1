@@ -16,8 +16,8 @@ pg = Checkbutton(var, text='PGCD',variable=c1, onvalue=1,offvalue= 0).place(x=10
 pc = Checkbutton(var, text='PPCM',variable=c1, onvalue=2,offvalue= 0).place(x=10,y=100)
 def buton():
     chek1 = c1.get()
-    num1 = eval(v1.get())
-    num2 = eval(v2.get())
+    num1 = int(v1.get())
+    num2 = int(v2.get())
     if chek1 == 1:
         c = pgcd(num1,num2)
         a = Label(var,text= "Resultat = " + str(c)).place(x=80,y=140)

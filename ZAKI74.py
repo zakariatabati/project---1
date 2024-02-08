@@ -1,4 +1,4 @@
-# Program For fixinf PGCD and PPCM FOR two numbers
+# Program For find the  PGCD and PPCM for two numbers
 def pgcd(a,b):
 	if b == 0:
 		return a
